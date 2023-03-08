@@ -1,0 +1,62 @@
+:root {
+    --primero:#DEE0E5;
+    --segundo:#64A7C6;
+    --tercero: pink;
+    --cuarto:#848484;
+    --quinto: #588884;
+    --sexto: #A1A1A4;
+    --septimo: #EF42A3;
+    --optavo:#A44CC0; }
+  
+  html {
+    font-size: 62.5%; }
+  
+body{
+    background-color: var(--segundo);
+    font-size: 16px;
+    
+
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    
+  }
+  .producto{
+    max-width: 25%;
+    padding: 30px;
+    margin: 60px;
+    margin-bottom: 20px;
+    box-shadow: 6px 6px 3px rgb(49, 224, 55);
+    display:inline-block;
+  }
+  .producto img{
+    width: 300px;
+    height: 450;
+
+  }
+  .productoEnCarrito{
+
+    box-shadow: #EF42A3;
+    width: 20px;
+    color: #A44CC0;
+    border: #DEE0E5;
+    
+  }
+  .item {
+    background-color: var(--optavo);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Cambiar a una disposición de 2 columnas y 3 filas */
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+  }

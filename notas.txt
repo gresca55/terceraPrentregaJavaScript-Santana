@@ -1,0 +1,14 @@
+<div class="grid-container" id="productos">
+        <div class="producto"><img src="./img/Mascarilla exfoliante para piesc.jpg" alt="">
+            mascarilla</div>
+        <div class="producto">
+            <img src="./img/Lampara ultravioletac.jpg" alt=""> lampara</div>
+        <div class="producto">
+           <img src="./img/Eagle Brandc.jpg" alt=""> eagle</div>
+        <div class="producto">
+           <img src="./img/Warm Palacec.jpg" alt=""> parches</div>
+        <div class="producto">
+           <img src="./img/Diademac.jpg" alt=""> Diadema</div>
+        <div class="producto">
+           <img src="./img/Mascarilla para ojosc.jpg" alt=""> ojos</div>
+      </div>
